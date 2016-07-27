@@ -1,3 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-size: 40px;
+	margin: 3%;
+}
+
+li { 
+	list-style: none;
+	margin:5px 0;
+}
+
+i{
+	color: #FFF;
+	margin-right: 10px;
+}
+
+button{
+	color: #FFF;
+}
+
+.rl-bottom{
+	position: relative;
+	bottom: 15px;
+	left: 30px;
+	font-size: 10px;
+}
+
+.img-cartelera{ 
+	max-width: 100%;
+	height: 250px;
+}
+
+.logotipo{
+	width: 80px;
+	height: 80px;
+	margin-left: 180px;
+	margin-top: 150px;
+}
+
+#cabecera-img{
+	height: 40px;
+}
+#cabecera{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+}
+.rl-top{
+	position: relative;
+	top: 15px; 
+}
+
+.texto-hueso{ 
+	color:#D8D8D8; 
+}
+
+.texto-13{
+	font-size: 13px;
+}
+
+.hero-section{
+	background: url(../img/banner.jpg) no-repeat ;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100px;
+	padding-top: 150px;
+}
+
+.restriccion{
+	color: #04B45F;	
+	border-radius: 10%;
+	border: 2px solid #04B45F;
+	background: #383837;
+	padding: 3%;
+	margin: 3% 0 5px 0;
+}
+
+.botones-dp{ 
+	border-radius: 7px;
+	width: 45%;
+	margin: 3% 0;
+	padding: 5%;
+	display: block;
+}
+
+.back-amarillo{ 
+	border:none;
+	background: #D9B41D ;
+}
+.back-naranja{
+	border: none;
+	background: #B97A29;
+}
+
+.cartelera{ 
+	padding: 0 auto;
+}
+
+.cartelera li {
+	display: inline-block;
+	width: 15%;
+	height: 150px; 
+	margin: 0.65%;
+}
+
+.yellow{
+	background-color: #D9B41D;
+	padding: 15px;
+}
 .cartelera {
 	width:200px;
 	height:200px;
